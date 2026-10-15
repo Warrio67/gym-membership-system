@@ -1,0 +1,943 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "$2a$08$n5M9X86Y8c/HOVa6y8ow9.FI8safojkSzBKE94.YYh6RHhN.2lSg.",
+      "role": "Owner",
+      "status": "Active",
+      "memberId": null,
+      "createdAt": "2026-10-15T19:58:05.042Z"
+    },
+    {
+      "id": 2,
+      "username": "staff1",
+      "email": "staff1@example.com",
+      "password": "$2a$08$f7K8UH8phw6H28eOkERP/uvtiKqTUDLkMXD1YCL3/.HytznlNHc.u",
+      "role": "Staff",
+      "status": "Active",
+      "memberId": null,
+      "createdAt": "2026-10-15T19:58:05.085Z"
+    },
+    {
+      "id": 3,
+      "username": "GM-0001",
+      "email": "member1@demo.com",
+      "password": "$2a$08$Qprw1Coxi5xh3nZI0ezTne7d3kw5ZfDny3so2ep9aXqrZw3Aq4ucO",
+      "role": "Member",
+      "status": "Active",
+      "memberId": 1,
+      "createdAt": "2026-10-15T19:58:05.128Z"
+    },
+    {
+      "id": 4,
+      "username": "GM-0002",
+      "email": "member2@demo.com",
+      "password": "$2a$08$NXeUybFlT1sbsm.nhxvqXO13QluWOx.NO5XpJrtBWRt..6iBSUqVe",
+      "role": "Member",
+      "status": "Active",
+      "memberId": 2,
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "memberCode": "GM-0001",
+      "fullName": "Member One",
+      "phone": "9000000001",
+      "email": "member1@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 1, Street 1, Demo City",
+      "joinDate": "2026-04-18",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.086Z"
+    },
+    {
+      "id": 2,
+      "memberCode": "GM-0002",
+      "fullName": "Member Two",
+      "phone": "9000000002",
+      "email": "member2@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 2, Street 2, Demo City",
+      "joinDate": "2026-06-17",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.128Z"
+    },
+    {
+      "id": 3,
+      "memberCode": "GM-0003",
+      "fullName": "Member Three",
+      "phone": "9000000003",
+      "email": "member3@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 3, Street 3, Demo City",
+      "joinDate": "2026-07-12",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    },
+    {
+      "id": 4,
+      "memberCode": "GM-0004",
+      "fullName": "Member Four",
+      "phone": "9000000004",
+      "email": "member4@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 4, Street 4, Demo City",
+      "joinDate": "2026-08-16",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    },
+    {
+      "id": 5,
+      "memberCode": "GM-0005",
+      "fullName": "Member Five",
+      "phone": "9000000005",
+      "email": "member5@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 5, Street 5, Demo City",
+      "joinDate": "2026-09-25",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    },
+    {
+      "id": 6,
+      "memberCode": "GM-0006",
+      "fullName": "Member Six",
+      "phone": "9000000006",
+      "email": "member6@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 6, Street 6, Demo City",
+      "joinDate": "2026-09-30",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    },
+    {
+      "id": 7,
+      "memberCode": "GM-0007",
+      "fullName": "Member Seven",
+      "phone": "9000000007",
+      "email": "member7@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 7, Street 7, Demo City",
+      "joinDate": "2026-10-05",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    },
+    {
+      "id": 8,
+      "memberCode": "GM-0008",
+      "fullName": "Member Eight",
+      "phone": "9000000008",
+      "email": "member8@demo.com",
+      "gender": "",
+      "dob": "",
+      "address": "House 8, Street 8, Demo City",
+      "joinDate": "2026-10-15",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.172Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "planCode": "PL-001",
+      "name": "Trial Week",
+      "description": "7-day trial pass",
+      "durationDays": 7,
+      "price": 500,
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.085Z"
+    },
+    {
+      "id": 2,
+      "planCode": "PL-002",
+      "name": "Monthly",
+      "description": "Full gym access, 1 month",
+      "durationDays": 30,
+      "price": 1500,
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.085Z"
+    },
+    {
+      "id": 3,
+      "planCode": "PL-003",
+      "name": "Quarterly",
+      "description": "Full gym access, 3 months",
+      "durationDays": 90,
+      "price": 4000,
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.085Z"
+    },
+    {
+      "id": 4,
+      "planCode": "PL-004",
+      "name": "Annual",
+      "description": "Full gym access, 12 months",
+      "durationDays": 365,
+      "price": 15000,
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.085Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "planId": 2,
+      "planName": "Monthly",
+      "price": 1500,
+      "durationDays": 30,
+      "startDate": "2026-04-18",
+      "endDate": "2026-05-17",
+      "status": "Expired",
+      "createdAt": "2026-04-18T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "planId": 3,
+      "planName": "Quarterly",
+      "price": 4000,
+      "durationDays": 90,
+      "startDate": "2026-06-17",
+      "endDate": "2026-09-14",
+      "status": "Expired",
+      "createdAt": "2026-06-17T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 3,
+      "memberId": 2,
+      "planId": 2,
+      "planName": "Monthly",
+      "price": 1500,
+      "durationDays": 30,
+      "startDate": "2026-05-18",
+      "endDate": "2026-06-16",
+      "status": "Cancelled",
+      "createdAt": "2026-05-18T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 4,
+      "memberId": 3,
+      "planId": 4,
+      "planName": "Annual",
+      "price": 15000,
+      "durationDays": 365,
+      "startDate": "2026-07-12",
+      "endDate": "2027-07-11",
+      "status": "Active",
+      "createdAt": "2026-07-12T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 5,
+      "memberId": 4,
+      "planId": 2,
+      "planName": "Monthly",
+      "price": 1500,
+      "durationDays": 30,
+      "startDate": "2026-09-20",
+      "endDate": "2026-10-19",
+      "status": "Active",
+      "createdAt": "2026-09-20T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 6,
+      "memberId": 5,
+      "planId": 2,
+      "planName": "Monthly",
+      "price": 1500,
+      "durationDays": 30,
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-24",
+      "status": "Active",
+      "createdAt": "2026-09-25T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 7,
+      "memberId": 6,
+      "planId": 3,
+      "planName": "Quarterly",
+      "price": 4000,
+      "durationDays": 90,
+      "startDate": "2026-09-30",
+      "endDate": "2026-12-28",
+      "status": "Active",
+      "createdAt": "2026-09-30T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 8,
+      "memberId": 7,
+      "planId": 1,
+      "planName": "Trial Week",
+      "price": 500,
+      "durationDays": 7,
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "Expired",
+      "createdAt": "2026-10-05T19:58:05.175Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 9,
+      "memberId": 8,
+      "planId": 2,
+      "planName": "Monthly",
+      "price": 1500,
+      "durationDays": 30,
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-13",
+      "status": "Active",
+      "createdAt": "2026-10-15T19:58:05.175Z",
+      "createdBy": "admin"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "invoiceNo": "INV-2026-0001",
+      "subscriptionId": 1,
+      "memberId": 1,
+      "amount": 1500,
+      "type": "Paid",
+      "method": "Cash",
+      "date": "2026-04-18T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "invoiceNo": "INV-2026-0002",
+      "subscriptionId": 2,
+      "memberId": 2,
+      "amount": 3000,
+      "type": "Paid",
+      "method": "UPI",
+      "date": "2026-06-17T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 3,
+      "invoiceNo": "INV-2026-0003",
+      "subscriptionId": 2,
+      "memberId": 2,
+      "amount": 500,
+      "type": "Paid",
+      "method": "Cash",
+      "date": "2026-08-16T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 4,
+      "invoiceNo": "INV-2026-0004",
+      "subscriptionId": 2,
+      "memberId": 2,
+      "amount": 200,
+      "type": "Refunded",
+      "method": "Cash",
+      "date": "2026-08-21T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 5,
+      "invoiceNo": "INV-2026-0005",
+      "subscriptionId": 4,
+      "memberId": 3,
+      "amount": 15000,
+      "type": "Paid",
+      "method": "Bank Transfer",
+      "date": "2026-07-12T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 6,
+      "invoiceNo": "INV-2026-0006",
+      "subscriptionId": 5,
+      "memberId": 4,
+      "amount": 800,
+      "type": "Paid",
+      "method": "Card",
+      "date": "2026-09-20T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 7,
+      "invoiceNo": "INV-2026-0007",
+      "subscriptionId": 6,
+      "memberId": 5,
+      "amount": 1500,
+      "type": "Paid",
+      "method": "UPI",
+      "date": "2026-09-25T19:58:05.173Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 8,
+      "invoiceNo": "INV-2026-0008",
+      "subscriptionId": 7,
+      "memberId": 6,
+      "amount": 1000,
+      "type": "Paid",
+      "method": "Cash",
+      "date": "2026-09-30T19:58:05.174Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 9,
+      "invoiceNo": "INV-2026-0009",
+      "subscriptionId": 8,
+      "memberId": 7,
+      "amount": 500,
+      "type": "Paid",
+      "method": "Cash",
+      "date": "2026-10-05T19:58:05.175Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": 10,
+      "invoiceNo": "INV-2026-0010",
+      "subscriptionId": 5,
+      "memberId": 4,
+      "amount": 500,
+      "type": "Paid",
+      "method": "UPI",
+      "date": "2026-10-15T20:02:43.811Z",
+      "createdBy": "admin"
+    }
+  ],
+  "checkins": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "checkInTime": "2026-10-10T01:30:00.000Z",
+      "checkOutTime": "2026-10-10T02:30:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 2,
+      "memberId": 3,
+      "checkInTime": "2026-10-10T12:30:00.000Z",
+      "checkOutTime": "2026-10-10T13:45:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 3,
+      "memberId": 1,
+      "checkInTime": "2026-10-11T01:30:00.000Z",
+      "checkOutTime": "2026-10-11T02:25:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 4,
+      "memberId": 5,
+      "checkInTime": "2026-10-11T02:30:00.000Z",
+      "checkOutTime": "2026-10-11T03:20:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 5,
+      "memberId": 3,
+      "checkInTime": "2026-10-12T12:30:00.000Z",
+      "checkOutTime": "2026-10-12T13:50:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 6,
+      "memberId": 4,
+      "checkInTime": "2026-10-12T13:30:00.000Z",
+      "checkOutTime": "2026-10-12T14:15:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 7,
+      "memberId": 1,
+      "checkInTime": "2026-10-13T01:30:00.000Z",
+      "checkOutTime": "2026-10-13T02:30:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 8,
+      "memberId": 6,
+      "checkInTime": "2026-10-13T11:30:00.000Z",
+      "checkOutTime": "2026-10-13T12:40:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 9,
+      "memberId": 3,
+      "checkInTime": "2026-10-14T12:30:00.000Z",
+      "checkOutTime": "2026-10-14T13:35:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 10,
+      "memberId": 5,
+      "checkInTime": "2026-10-14T02:30:00.000Z",
+      "checkOutTime": "2026-10-14T03:20:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 11,
+      "memberId": 1,
+      "checkInTime": "2026-10-15T01:30:00.000Z",
+      "checkOutTime": "2026-10-15T02:30:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 12,
+      "memberId": 4,
+      "checkInTime": "2026-10-15T13:30:00.000Z",
+      "checkOutTime": "2026-10-15T14:10:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 13,
+      "memberId": 3,
+      "checkInTime": "2026-10-16T12:30:00.000Z",
+      "checkOutTime": "2026-10-16T13:30:00.000Z",
+      "method": "Desk"
+    },
+    {
+      "id": 14,
+      "memberId": 5,
+      "checkInTime": "2026-10-16T03:30:00.000Z",
+      "checkOutTime": null,
+      "method": "Desk"
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "timestamp": "2026-10-15T19:58:05.085Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Plans",
+      "entityId": 1,
+      "details": "Added plan Trial Week"
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-10-15T19:58:05.085Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Plans",
+      "entityId": 2,
+      "details": "Added plan Monthly"
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-10-15T19:58:05.085Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Plans",
+      "entityId": 3,
+      "details": "Added plan Quarterly"
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-10-15T19:58:05.085Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Plans",
+      "entityId": 4,
+      "details": "Added plan Annual"
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-10-15T19:58:05.086Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 1,
+      "details": "Added member GM-0001"
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-10-15T19:58:05.128Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 2,
+      "details": "Added member GM-0002"
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 3,
+      "details": "Added member GM-0003"
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 4,
+      "details": "Added member GM-0004"
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 5,
+      "details": "Added member GM-0005"
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 6,
+      "details": "Added member GM-0006"
+    },
+    {
+      "id": 11,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 7,
+      "details": "Added member GM-0007"
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-10-15T19:58:05.172Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Members",
+      "entityId": 8,
+      "details": "Added member GM-0008"
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 1,
+      "details": "Sold Monthly to GM-0001"
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 1,
+      "details": "Paid 1500 against subscription 1"
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 2,
+      "details": "Sold Quarterly to GM-0002"
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 2,
+      "details": "Paid 3000 against subscription 2"
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 3,
+      "details": "Paid 500 against subscription 2"
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 4,
+      "details": "Refunded 200 against subscription 2"
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 3,
+      "details": "Sold Monthly to GM-0002"
+    },
+    {
+      "id": 20,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 4,
+      "details": "Sold Annual to GM-0003"
+    },
+    {
+      "id": 21,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 5,
+      "details": "Paid 15000 against subscription 4"
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 5,
+      "details": "Sold Monthly to GM-0004"
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 6,
+      "details": "Paid 800 against subscription 5"
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 6,
+      "details": "Sold Monthly to GM-0005"
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-10-15T19:58:05.173Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 7,
+      "details": "Paid 1500 against subscription 6"
+    },
+    {
+      "id": 26,
+      "timestamp": "2026-10-15T19:58:05.174Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 7,
+      "details": "Sold Quarterly to GM-0006"
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-10-15T19:58:05.174Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 8,
+      "details": "Paid 1000 against subscription 7"
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 8,
+      "details": "Sold Trial Week to GM-0007"
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 9,
+      "details": "Paid 500 against subscription 8"
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Subscriptions",
+      "entityId": 9,
+      "details": "Sold Monthly to GM-0008"
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 1,
+      "details": "Checked in GM-0001"
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 2,
+      "details": "Checked in GM-0003"
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 3,
+      "details": "Checked in GM-0001"
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 4,
+      "details": "Checked in GM-0005"
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 5,
+      "details": "Checked in GM-0003"
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 6,
+      "details": "Checked in GM-0004"
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 7,
+      "details": "Checked in GM-0001"
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 8,
+      "details": "Checked in GM-0006"
+    },
+    {
+      "id": 39,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 9,
+      "details": "Checked in GM-0003"
+    },
+    {
+      "id": 40,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 10,
+      "details": "Checked in GM-0005"
+    },
+    {
+      "id": 41,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 11,
+      "details": "Checked in GM-0001"
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 12,
+      "details": "Checked in GM-0004"
+    },
+    {
+      "id": 43,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 13,
+      "details": "Checked in GM-0003"
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-10-15T19:58:05.175Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "CheckIns",
+      "entityId": 14,
+      "details": "Checked in GM-0005"
+    },
+    {
+      "id": 45,
+      "timestamp": "2026-10-15T20:02:43.811Z",
+      "user": "admin",
+      "action": "CREATE",
+      "entity": "Payments",
+      "entityId": 10,
+      "details": "Paid 500 against subscription 5"
+    }
+  ],
+  "counters": {
+    "userId": 4,
+    "memberId": 8,
+    "planId": 4,
+    "subId": 9,
+    "paymentId": 10,
+    "checkinId": 14,
+    "logId": 45,
+    "memberCodeSeq": 8,
+    "invoiceYearSeq": {
+      "2026": 10
+    }
+  }
+}
